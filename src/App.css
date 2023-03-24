@@ -31,3 +31,30 @@ body {
   min-height: 100vh;
   padding: 0 1.25rem;
 }
+
+/* MyButton */
+
+.MyButton {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 0.625rem 1.25rem;
+  font-size: 1.125rem;
+  font-family: "Nanum Pen Script";
+  white-space: nowrap;
+}
+
+.MyButton_default {
+  background-color: #ececec;
+  color: black;
+}
+
+.MyButton_positive {
+  background-color: #64c964;
+  color: white;
+}
+
+.MyButton_negative {
+  background-color: #fd565f;
+  color: white;
+}
