@@ -177,3 +177,24 @@ header .head_btn_right {
 .DiaryItem .btn_wrapper {
   min-width: 4.375rem;
 }
+
+/* DiaryEditor */
+
+.DiaryEditor section {
+  margin-bottom: 2.5rem;
+}
+
+.DiaryEditor h4 {
+  font-size: 1.375rem;
+  font-weight: bold;
+}
+
+.DiaryEditor .input_date {
+  border: none;
+  border-radius: 5px;
+  background-color: #ececec;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  font-family: "Nanum Pen Script";
+  font-size: 1.25rem;
+}
