@@ -14,7 +14,7 @@ const DiaryEditor = ({ isEdit, originData }) => {
   const navigate = useNavigate();
   const [date, setDate] = useState(getStringDate(new Date()));
   const [emotion, setEmotion] = useState(3);
-  const [content, setContent] = useState();
+  const [content, setContent] = useState("");
 
   const handleClickEmote = (emotion) => {
     setEmotion(emotion);
@@ -40,7 +40,6 @@ const DiaryEditor = ({ isEdit, originData }) => {
       }
     }
 
-    onCreate(date, content, emotion);
     navigate(`/`, { replace: true });
   };
 
